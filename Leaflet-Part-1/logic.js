@@ -4,10 +4,9 @@ var queryURL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_we
 
 // Get request to the query URL
 d3.json(queryURL).then(function(data){
-    // send the data.features and data.features object to the createFeatures function.
     createFeatures(data.features);
   });
-   
+
 function createFeatures(earthquakeData){
 
     // Give each feature a popup describing the place and time of the earthquakes
@@ -69,9 +68,8 @@ legend.onAdd = function() {
 
     // add label and color the legend
     for (var i = 0; i < grades.length; i++) {
-          labels.push('<ul style="background-color:' + chooseColor(grades[i] + 1) + '"> <span>' + grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '' : '+') + '</span></ul>');
+          labels.push('<ul style="white' + chooseColor(grades[i] + 1) + '"> <span>' + grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '' : '+') + '</span></ul>');
         }
-
       // add each label list item to the div under the <ul> tag
       div.innerHTML += "<ul>" + labels.join("") + "</ul>";
     
@@ -117,5 +115,6 @@ function createMap(earthquakes) {
   L.control.layers(baseMaps, overlayMaps, {
     collapsed: false
   }).addTo(myMap);
+
 
 }
