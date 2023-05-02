@@ -25,7 +25,7 @@ The instructions for this activity are broken into two parts:Part 1: Create the 
  
 ## Results
 
-Part 1: Images below are screenshots of part one's map in live server. Files for this map can be found here: 
+Part 1: Images below are screenshots of part one's map in live server. Files for this map can be found here: https://github.com/MaddyGutieruiz/leaflet-challenge
 
 ![leaflet_map](https://github.com/MaddyGutieruiz/leaflet-challenge/blob/main/Images/leaflet_map.png)
 ![CA_map](https://github.com/MaddyGutieruiz/leaflet-challenge/blob/main/Images/CA_map.png)
