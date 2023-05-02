@@ -24,5 +24,8 @@ The instructions for this activity are broken into two parts:Part 1: Create the 
  - Your visualization should look something like the preceding map.
  
 ## Results
+
+Part 1: Images below are screenshots of part one's map in live server. Files for this map can be found here: 
+
 ![leaflet_map](https://github.com/MaddyGutieruiz/leaflet-challenge/blob/main/Images/leaflet_map.png)
 ![CA_map](https://github.com/MaddyGutieruiz/leaflet-challenge/blob/main/Images/CA_map.png)
